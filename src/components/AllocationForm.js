@@ -85,7 +85,7 @@ const AllocationForm = (props) => {
               Reduce
             </option>
           </select>
-
+          <p style={{ marginLeft: "2rem" }}>£</p>
           <input
             required="required"
             type="number"
