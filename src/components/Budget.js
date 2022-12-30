@@ -23,6 +23,9 @@ const Budget = () => {
         id="budget"
         value={budgetGUI}
         name="budget"
+        min="960"
+        max="20000"
+        step="10"
       />
       {/* <button>Increase Budget</button> */}
     </div>
